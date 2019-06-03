@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bno055_uart_driver</name>
+  <version>0.0.0</version>
+  <description>BNO055 driver using UART communication</description>
+
+  <maintainer email="stephan.sundermann@fu-berlin.de">Stephan Sundermann</maintainer>
+
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>serial</depend>
+
+</package>

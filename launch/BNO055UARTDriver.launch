@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="bno055_uart_driver" type="bno055_uart_driver_node" name="imu" output="screen">
+		<param name="baud" value="115200" />
+		<param name="device" value="/dev/ttyIMU" />
+	</node>
+</launch>
